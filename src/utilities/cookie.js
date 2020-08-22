@@ -1,7 +1,6 @@
 
 export const getCookie = (cookiename) => {
     const cookieProps = document.cookie.split(';');
-
     for(var i = 0; i < cookieProps.length; i++) {
         var cookieProp = cookieProps[i];
         cookieProp = cookieProp.split('=');

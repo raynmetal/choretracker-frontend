@@ -1,0 +1,11 @@
+.Logo {
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.Logo img {
+    max-height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
